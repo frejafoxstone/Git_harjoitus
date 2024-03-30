@@ -1,13 +1,28 @@
 body {
-    background-color:darkolivegreen
+    background-color: black;
+    color: white;
 }
 
 h1 {
-    color:ivory;
-    text-align:center
+    font-size: 20px;
 }
 
 p {
     font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 12px;
+    color: lightgray;
+}
+
+.container {
+    border: 2px dotted black;
+    width: 100px;
+    height: 100px;
+}
+
+.ordered.list {
+    list-style-type: lower-alpha;
+}
+
+.unordered-list {
+    list-style-type: square;
 }
