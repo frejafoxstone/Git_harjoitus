@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* Added to remove default body margin */
+    margin: 0;
 }
 
 header {
@@ -8,7 +8,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 20px; /* Added margin at the bottom of the header */
+    margin-bottom: 20px;
 }
 
 header .logo {
@@ -17,7 +17,7 @@ header .logo {
 }
 
 header .logo-placeholder {
-    width: 100px; /* Same width as the logo to maintain center alignment */
+    width: 100px; 
 }
 
 nav ul {
@@ -39,7 +39,7 @@ nav ul li a:hover {
 }
 
 .carousel-item img.carousel-img {
-    max-height: 400px; /* Increased height */
+    max-height: 400px;
     object-fit: cover;
 }
 
@@ -48,21 +48,21 @@ main {
 }
 
 .mb-4 {
-    margin-bottom: 1.5rem; /* Added margin bottom class */
+    margin-bottom: 1.5rem;
 }
 
 img.lab-img {
-    max-width: 50%; /* Made the lab.png image half its original size */
+    max-width: 50%; 
 }
 
 p.image-text {
     font-style: italic;
-    font-size: 14px; /* Adjusted font size */
-    margin-top: 5px; /* Adjusted margin to bring text closer to the image */
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 footer {
-    margin-top: 20px; /* Added margin at the top of the footer */
+    margin-top: 20px;
 }
 
 footer p {
@@ -70,13 +70,13 @@ footer p {
 }
 
 .bg-darkblue {
-    background-color: #003366; /* Darker blue shade */
+    background-color: #003366;
 }
 
 .bg-darker-light {
-    background-color: #b0b0b0; /* Darker shade for the navigation bar */
-    border-radius: 15px; /* Added rounded corners */
-    padding: 15px; /* Added padding to the navigation div */
+    background-color: #b0b0b0;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .bullet-points {
@@ -91,16 +91,16 @@ footer p {
 
 .bullet-points ul {
     list-style-type: disc;
-    padding-left: 0; /* Adjusted padding to center the bullet list */
+    padding-left: 0;
     margin-left: 20px;
 }
 
 .about-section {
-    background-color: #f2f2f2; /* Changed background color for the about-section div */
+    background-color: #f2f2f2;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
 .about-section h2 {
@@ -108,7 +108,7 @@ footer p {
 }
 
 .about-section ul {
-    padding-left: 0; /* Remove default padding */
+    padding-left: 0;
     list-style-type: disc;
     margin-left: 20px;
 }
